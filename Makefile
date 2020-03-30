@@ -1,13 +1,10 @@
-#Author:  Tomáš Bydžovský
-#		  bydzoto1@fit.cvut.cz
-
 
 CXX       = g++
 LD        = g++
 CXXFLAGS  = -Wall -Wno-long-long -O0 -ggdb -Wextra -pedantic -std=c++11
 LIBS      = 
 
-TARGET	  = bydzoto1
+TARGET	  = chess.out
 BINARIES  = bin
 SOURCES   = src
 DOC  	  = doc
