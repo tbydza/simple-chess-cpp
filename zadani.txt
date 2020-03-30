@@ -1,0 +1,25 @@
+Klasická hra Šachy (příp. libovolná varianta - asijské šachy, ...)
+
+Implementujte následující varianty:
+
+    pro 2 hráče na jednom počítači
+    pro hru proti počítači
+
+Hra musí splňovat následující funkcionality:
+
+    Dodržování všech pravidel dané varianty (u klasické varianty tedy i rošáda, braní mimochodem, proměna pěšce na dámu).
+    Ukládání (resp. načítání) rozehrané hry do (resp. ze) souboru (vytvořte vhodný formát)
+    Oznamovat konec hry a její výsledek.
+
+Kde lze využít polymorfismus? (doporučené)
+
+    Ovládání hráčů: lokální hráč, umělá inteligence (různé druhy), síťový hráč
+    Pohyby figurek: král, dáma, věž, kůň,...
+    Uživatelské rozhraní: konzolové, ncurses, SDL, OpenGL (různé druhy),...
+    Pravidla různých variant: klasické šachy, žravé šachy, asijské šachy
+    Jednotlivá pravidla: tahy, rošáda, braní mimochodem, proměna (jejich výběr pak může být konfigurovatelný)
+
+Další informace
+
+    https://cs.wikipedia.org/wiki/Šachy
+    https://cs.wikipedia.org/wiki/Šachové_varianty
