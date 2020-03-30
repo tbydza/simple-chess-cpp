@@ -1,2 +1,3 @@
-# tomas.bydzovsky-gmail.com
-simple-chess-cpp
+# Simple Chess C++
+
+This is was created as semester project for C++/OOP course.
